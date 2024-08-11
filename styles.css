@@ -1,0 +1,438 @@
+body{
+    margin: 0px 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for the Frame section */
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100px; */
+    /* border: 2px solid; */
+    padding: 10px 50px;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+#logo p{
+    font-size: px;
+}
+
+#links{
+    display: flex;
+    gap: 30px;
+}
+
+#login{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#login nav {
+    font-size: 15px;
+    color:green;
+    font-weight: bold;
+}
+
+#login nav button{
+    font-size: 15px;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#links nav a{
+    text-decoration: none;
+    color: #000;
+    cursor: default;
+}
+
+/* styling for the home section */
+
+.home{
+    padding: 10px 50px;
+}
+
+.textImg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 100px;
+    /* border: 2px solid red; */
+}
+
+.heroImg img{
+    width: 300px;
+}
+
+.text h1{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+span{
+    color:#008000;
+}
+
+.text button{
+    padding: 10px 20px;
+    background-color: #008000;
+    color: #fff;
+    border-radius:5px ;
+}
+
+.content h2, .content > p{
+    text-align: center;
+}
+
+.content h2{
+    margin: 50px 0 0px;
+    font-weight: bold;
+}
+
+.content p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clientImage{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin: 50px 0;
+}
+
+.nextMembers{
+    display: flex;
+    margin: 50px 50px;
+    gap: 20px;
+    text-align: center;
+    background-color: #e8f5e9;
+    /* border: 2px solid green; */
+    justify-content: center;
+}
+
+.nextMembers div img{
+    margin-bottom: 1px 0;
+}
+
+.nextMembers div h1{
+    margin-bottom: 1px 0;
+    font-size: 16px;
+}
+
+.box-container{
+    width: 300px;
+    /* padding: 50px; */
+}
+
+
+/* styling for the body section */
+
+.bodySection{
+    padding: 30px 50px;
+}
+
+.beta{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left-side img{
+    width: 300px;
+}
+
+.rightSide{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+    
+    
+}
+
+.rightSide p{
+    font-size: 13px;
+}
+
+.long{
+    display: flex;
+    gap: 10px;
+}
+
+.upper{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+#diff{
+    background-color: #e8f5e9;
+    margin-bottom: 50px;
+}
+
+.rightSide div img{
+    width: 30px;
+    /* border: 2px solid red; */
+}
+
+.right-side{
+    /* border: 2px solid blue; */
+    display: block;
+    /* width: 50%; */
+    margin: 30px;
+}
+
+.left-side{
+    /* border: 2px solid red; */
+    /* width: 50%; */
+    margin: 30px;
+}
+
+.right-side button{
+    width: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #008000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.right-side p{
+    font-size: 18px;
+    word-spacing: 3px;
+    initial-letter-align: 10px;
+}
+
+.clientMeetImg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clientMeetImg> p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.clientMeetImg img{
+    width: 20px;
+}
+
+#alsoDiff{
+    background-color: #e8f5e9;
+}
+
+.genDiv{
+    display: flex;
+    position: relative;
+    gap: 30px;
+}
+
+.genDiv p{
+    text-align: center;
+    position: relative;
+    margin: 0 50px;
+    padding: 30px;
+    bottom: 70px;
+    background-color:#e8f5e9;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.caring{
+    text-align: center;
+    margin: 0 30px;
+}
+
+.caring h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* styling for the footer section */
+
+.footer{
+    background-color: #e8f5e9;
+    padding: 30px 50px;
+}
+
+.footCenter{
+    text-align: center;
+    margin: 20px;
+}
+
+.footCenter h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.footCenter button{
+    width: 150px;
+    padding: 15px;
+    background-color: #008000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.footDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #263238;
+    padding: 50px;
+}
+
+.footDiv h1, nav{
+    color: #fff;
+    padding: 5px;
+}
+
+.nexcent{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerIcon{
+    padding: 10px;
+}
+
+.footDiv nav{
+    color: #ABBED1;
+}
+
+.footDiv form{
+    border-radius: 10px;
+    background-color: #263238;
+    color: #ABBED1;
+}
+
+
+
+/* responsiveness max width of 500px */
+
+@media screen and (max-width: 800px) {
+
+    /* target the frame first */
+    .frame{
+        padding: 10px 25px;
+    }
+
+    #links, #login{
+        display: none;
+    }
+    
+    .menuIcon{
+        display: block;
+    }
+
+    /* target the home section */
+
+    .home{
+        padding: 10px 25px;
+    }
+
+    .textImg{
+        padding: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text h1{
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+
+    /* target the body section */
+
+    .bodySection{
+        padding: 0px 25px;
+        /* border: 2px solid red; */
+    }
+
+    .beta{
+        flex-direction: column;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .right-side{
+        margin: 25px;
+    }
+
+    .right-side h1{
+        font-size: 18px;
+    }
+
+    .right-side p{
+        font-size: 12px;
+    }
+
+    .right-side button{
+        margin: 5px 0;
+        padding: 5px;
+        background-color: #008000;
+        color: #fff;
+    }
+
+    .left-side img{
+        width: 100%;
+    }
+
+    
+    .genDiv{
+        /* display: block; */
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .text button{
+        padding: 5px 10px;
+        margin: 5px 40%;
+        background-color: #008000;
+        color: #fff;
+        border-radius:5px ;
+    }
+
+    .right-side button{
+        width: 100px;
+        margin: 10px 40%;
+        padding: 5px 10px;
+        background-color: #008000;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .footCenter button{
+        width: 150px;
+        padding: 5px 10px;
+        background-color: #008000;
+        border-radius: 5px;
+        color: #fff;
+    }
+
+    .footDiv{
+        flex-direction: column;
+    }
+}
