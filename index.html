@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="./app.js" defer></script>
 </head>
 <body>
     <section class="frame">
@@ -13,14 +17,14 @@
             <img src="./assets/Nexcent.svg" alt="">
         </div>
         <div id="links">
-            <nav><a href="">Home</a></nav>
-            <nav><a href="">Service</a></nav>
-            <nav><a href="">Feature</a></nav>
-            <nav><a href="">Product</a></nav>
-            <nav><a href="">Testimonial</a></nav>
-            <nav><a href="">FAQ</a></nav>
+            <nav class="nav-link"><a href="#home">Home</a></nav>
+            <nav class="nav-link"><a href="#service">Service</a></nav>
+            <nav class="nav-link"><a href="#feature">Feature</a></nav>
+            <nav class="nav-link"><a href="">Product</a></nav>
+            <nav class="nav-link"><a href="#testimonial">Testimonial</a></nav>
+            <nav class="nav-link"><a href="">FAQ</a></nav>
         </div>
-        <div class="menuIcon">
+        <div class="menuIcon" id="menu">
             <img src="./assets/icon-menu.svg" alt="">
         </div>
         <div id="login">
@@ -29,204 +33,207 @@
         </div>
     </section>
 
-    <section class="home">
-        <div class="textImg">
-            <div class="text">
-                <h1>Lessons and Insight <span>from 8 years</span></h1>
-                <p>where to grow your business as a photographer: Site or Social Media?</p>
-                <button>Register</button>
-            </div>
-            <div class="heroImg">
-                <img src="./assets/Illustration.jpg" alt="">
-            </div>
-        </div>
-
-
-        <div class="content">
-            <h2>Our Clients</h2>
-            <p>We have been working with some Fortune 500+ clients</p>
-            <div class="clientImage">
-                <img src="./assets/Logo.svg" alt="">
-                <img src="./assets/space_sp.jpg" alt="">
-                <img src="./assets/OJ_block.svg" alt="">
-                <img src="./assets/Logo ipsum.svg" alt="">
-                <img src="./assets/inf_circle.svg" alt="">
-                <img src="./assets/und_slnt.svg" alt="">
-                <img src="./assets/OJ_block.svg" alt="">
-            </div>
-            <h2>Manage your entire community in a single system</h2>
-            <p>Who is Nexcent suitable for?</p>
-
-            <div class="nextMembers">
-                <div class="box-container">
-                    <img src="./assets/membership_org.svg" alt="">
-                    <h1>Membership Organizations</h1>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+    <main class="container">
+        <section class="home" id="home0">
+            <div class="textImg">
+                <div class="text">
+                    <h1>Lessons and Insight <span>from 8 years</span></h1>
+                    <p>where to grow your business as a photographer: Site or Social Media?</p>
+                    <button>Register</button>
                 </div>
-
-                <div class="box-container">
-                    <img src="./assets/national_ass icon.svg" alt="">
-                    <h1>National Association</h1>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
-                </div>
-
-                <div class="box-container">
-                    <img src="./assets/club_grp.jpg" alt="">
-                    <h1>Clubs and Groups</h1>
-                    <p>Our membership management software provides full automation of membership renewals and payments</p>
+                <div class="heroImg">
+                    <img src="./assets/Illustration.jpg" alt="">
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="bodySection">
-        <div class="beta">
-            <div class="left-side">
-                <img src="./assets/Frame 35.png" alt="">
-            </div>
-            <div class="right-side">
-                <h1>The unseen of spending three years at Pixelgrade</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur commodi distinctio totam, debitis porro! Incidunt labore rem atque et alias asperiores minima necessitatibus eos nisi provident ipsa debitis repellendus quae cum quidem, neque reiciendis molestias, voluptatem, itaque animi velit!</p>
-                <button>Learn More</button>
-            </div>
-        </div>
-
-        <div class="beta" id="diff">
-            <div class="left-side">
-                <h1>Helping a local <span>business reinvent itself</span></h1>
-            </div>
-            <div class="rightSide">
-                    <div>
-                        <div class="long">
-                            <img src="./assets/Vector (1).svg" alt="">
-                        
-                            <p> <span class="upper">2,245,341</span> <br> Members</p>
-                        </div>
-
-                        <div  class="long">
-                            <img src="./assets/event.jpg" alt="">
-                        
-                            <p> <span class="upper"> 828,867</span> <br> Event Bookings</p>
-                        </div>
-                    </div>
-
-                   <div>
-
-                        <div  class="long">
-                            <img src="./assets/club_grp.jpg" alt="">
-
-                            <p> <span class="upper">46,328 </span><br> Clubs</p>
-                        </div>
-
-                        <div  class="long">
-                            <img src="./assets/ccard.svg" alt="">
-                        
-                            <p> <span class="upper">1,926,43</span> <br> Payments</p>
-                        </div>
-                   </div>
-            </div>
-        </div>
-        
-        <div class="beta">
-            <div class="left-side">
-                <img src="./assets/pana.png" alt="">
-            </div>
-            <div class="right-side">
-                <h1>How to design your site footer like we did</h1>
-                <p>emo animi, unde enim consectetur, dicta illo veniam error ullam cumque perspiciatis voluptate! Magnam quos quo perferendis? Harum maxime numquam ipsum labore repudiandae odio omnis repellat natus? Delectus, deleniti aut cumque doloremque voluptate minus officia aliquam vitae, iusto eligendi unde corrupti vero. Quas quod esse culpa ducimus harum, porro dolore autem, magni, doloribus hic consectetur! Saepe totam officiis dolor debitis impedit atque culpa nemo inventore porro exercitationem!
-                </p>
-                <button>Learn More</button>
-            </div>
-        </div>
-        
-        <div class="beta" id="alsoDiff">
-             <div class="left-side">
-                <img src="./assets/image 9.png" alt="">
-             </div>
-            <div class="right-side">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non laborum nihil atque nobis dolor pariatur cumque, cum alias sapiente ipsum repudiandae nulla ea itaque recusandae distinctio laudantium iusto possimus ipsa dolorem, rerum impedit velit numquam? Consequuntur accusamus nulla necessitatibus soluta facere distinctio corporis tempore fuga eaque vero nobis autem doloremque sit veniam repellendus cupiditate cum explicabo sed, quo nam molestiae asperiores voluptate laudantium! Distinctio expedita natus perspiciatis totam asperiores? Ullam iste excepturi a dolores eius culpa cumque, quisquam illo praesentium delectus rerum consequatur sequi nemo dignissimos sunt ipsa dicta, inventore tenetur maiores quidem itaque voluptatem! Suscipit soluta minus reprehenderit cum.</p>
-                <h2><span>Tim Smith</span></h2>
-                <p>British Dragon Boat Racing Association</p>
-                <div class="clientMeetImg">
+    
+    
+            <div class="content">
+                <h2>Our Clients</h2>
+                <p>We have been working with some Fortune 500+ clients</p>
+                <div class="clientImage">
                     <img src="./assets/Logo.svg" alt="">
                     <img src="./assets/space_sp.jpg" alt="">
                     <img src="./assets/OJ_block.svg" alt="">
                     <img src="./assets/Logo ipsum.svg" alt="">
                     <img src="./assets/inf_circle.svg" alt="">
                     <img src="./assets/und_slnt.svg" alt="">
-
-                    <p><span>Meet all customers &rightarrow; </span></p>
+                    <img src="./assets/OJ_block.svg" alt="">
+                </div>
+                <h2>Manage your entire community in a single system</h2>
+                <p>Who is Nexcent suitable for?</p>
+    
+                <div class="nextMembers">
+                    <div class="box-container">
+                        <img src="./assets/membership_org.svg" alt="">
+                        <h1>Membership Organizations</h1>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
+    
+                    <div class="box-container">
+                        <img src="./assets/national_ass icon.svg" alt="">
+                        <h1>National Association</h1>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
+    
+                    <div class="box-container">
+                        <img src="./assets/club_grp.jpg" alt="">
+                        <h1>Clubs and Groups</h1>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="lastDiv">
-            <div class="caring">
-                <h1>Caring is the new Marketing</h1>
-                <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who is joining the community, read about how our community are iincreasing their membership income and lot's more. </p>
+        </section>
+    
+        <section class="bodySection" id="service">
+            <div class="beta">
+                <div class="left-side">
+                    <img src="./assets/Frame 35.png" alt="">
+                </div>
+                <div class="right-side">
+                    <h1>The unseen of spending three years at Pixelgrade</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error consequuntur commodi distinctio totam, debitis porro! Incidunt labore rem atque et alias asperiores minima necessitatibus eos nisi provident ipsa debitis repellendus quae cum quidem, neque reiciendis molestias, voluptatem, itaque animi velit!</p>
+                    <button>Learn More</button>
+                </div>
             </div>
-            <div class="genDiv">
+    
+            <div class="beta" id="diff">
+                <div class="left-side">
+                    <h1>Helping a local <span>business reinvent itself</span></h1>
+                </div>
+                <div class="rightSide">
+                        <div>
+                            <div class="long">
+                                <img src="./assets/Vector (1).svg" alt="">
+                            
+                                <p> <span class="upper">2,245,341</span> <br> Members</p>
+                            </div>
+    
+                            <div  class="long">
+                                <img src="./assets/event.jpg" alt="">
+                            
+                                <p> <span class="upper"> 828,867</span> <br> Event Bookings</p>
+                            </div>
+                        </div>
+    
+                       <div>
+    
+                            <div  class="long">
+                                <img src="./assets/club_grp.jpg" alt="">
+    
+                                <p> <span class="upper">46,328 </span><br> Clubs</p>
+                            </div>
+    
+                            <div  class="long">
+                                <img src="./assets/ccard.svg" alt="">
+                            
+                                <p> <span class="upper">1,926,43</span> <br> Payments</p>
+                            </div>
+                       </div>
+                </div>
+            </div>
+            
+            <div class="beta">
+                <div class="left-side">
+                    <img src="./assets/pana.png" alt="">
+                </div>
+                <div class="right-side">
+                    <h1>How to design your site footer like we did</h1>
+                    <p>emo animi, unde enim consectetur, dicta illo veniam error ullam cumque perspiciatis voluptate! Magnam quos quo perferendis? Harum maxime numquam ipsum labore repudiandae odio omnis repellat natus? Delectus, deleniti aut cumque doloremque voluptate minus officia aliquam vitae, iusto eligendi unde corrupti vero. Quas quod esse culpa ducimus harum, porro dolore autem, magni, doloribus hic consectetur! Saepe totam officiis dolor debitis impedit atque culpa nemo inventore porro exercitationem!
+                    </p>
+                    <button>Learn More</button>
+                </div>
+            </div>
+            
+            <div class="beta" id="alsoDiff">
+                 <div class="left-side">
+                    <img src="./assets/image 9.png" alt="">
+                 </div>
+                <div class="right-side">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non laborum nihil atque nobis dolor pariatur cumque, cum alias sapiente ipsum repudiandae nulla ea itaque recusandae distinctio laudantium iusto possimus ipsa dolorem, rerum impedit velit numquam? Consequuntur accusamus nulla necessitatibus soluta facere distinctio corporis tempore fuga eaque vero nobis autem doloremque sit veniam repellendus cupiditate cum explicabo sed, quo nam molestiae asperiores voluptate laudantium! Distinctio expedita natus perspiciatis totam asperiores? Ullam iste excepturi a dolores eius culpa cumque, quisquam illo praesentium delectus rerum consequatur sequi nemo dignissimos sunt ipsa dicta, inventore tenetur maiores quidem itaque voluptatem! Suscipit soluta minus reprehenderit cum.</p>
+                    <h2><span>Tim Smith</span></h2>
+                    <p>British Dragon Boat Racing Association</p>
+                    <div class="clientMeetImg">
+                        <img src="./assets/Logo.svg" alt="">
+                        <img src="./assets/space_sp.jpg" alt="">
+                        <img src="./assets/OJ_block.svg" alt="">
+                        <img src="./assets/Logo ipsum.svg" alt="">
+                        <img src="./assets/inf_circle.svg" alt="">
+                        <img src="./assets/und_slnt.svg" alt="">
+    
+                        <p><span>Meet all customers &rightarrow; </span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lastDiv" id="feature">
+                <div class="caring">
+                    <h1>Caring is the new Marketing</h1>
+                    <p>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who is joining the community, read about how our community are iincreasing their membership income and lot's more. </p>
+                </div>
+                <div class="genDiv">
+                    <div>
+                        <img src="./assets/image 18.png" alt="">
+                        <p>Creating Streamlined Safeguarding Processes withOneRen <br> <span>Readmore &rightarrow; </span></p>
+                    </div>
+                    
+                    <div>
+                        <img src="./assets/image 19.png" alt="">
+                        <p>What are your safeguarding responsibilities and how can you manage them <br> <span>Readmore &rightarrow;</span></p>
+                    </div>
+                    
+                    <div>
+                        <img src="./assets/image 20.png" alt="">
+                        <p>Revamping the Membership Model with Triathlon Austrailia <br> <span>Readmore &rightarrow;</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="footer" id="testimonial">
+            <div class="footCenter">
+                <h1>Pellentesquen suscipt fringilla libero eu.</h1>
+                <button>Get a Demo &rightarrow;</button>
+            </div>
+    
+            <div class="footDiv">
+                <div class="footerIcon">
+                    <div class="logoDiv">
+                        <img src="./assets/nexcent_logo.png" alt="" width="43" height="43">
+                        <p class="nexcent">NEXCENT</p>
+                    </div>
+    
+                    <p>Copyright &copy; 2020 Nexcent ltd. <br> All rights reserved</p>
+    
+                    <img src="./assets/Instagram.svg" alt="">
+                    <img src="./assets/linkedin.svg" alt="">
+                    <img src="./assets/twitter.svg" alt="">
+                    <img src="./assets/youtube.svg" alt="">
+                </div>
                 <div>
-                    <img src="./assets/image 18.png" alt="">
-                    <p>Creating Streamlined Safeguarding Processes withOneRen <br> <span>Readmore &rightarrow; </span></p>
+                    <h1>Company</h1>
+                    <nav>About</nav>
+                    <nav>Blog</nav>
+                    <nav>Contact us</nav>
+                    <nav>Pricing</nav>
+                    <nav>Testimonials</nav>
                 </div>
-                
                 <div>
-                    <img src="./assets/image 19.png" alt="">
-                    <p>What are your safeguarding responsibilities and how can you manage them <br> <span>Readmore &rightarrow;</span></p>
+                    <h1>Support</h1>
+                    <nav>Help Center</nav>
+                    <nav>Terms of Service</nav>
+                    <nav>Legal</nav>
+                    <nav>Privacy Policy</nav>
+                    <nav>Status</nav>
                 </div>
-                
                 <div>
-                    <img src="./assets/image 20.png" alt="">
-                    <p>Revamping the Membership Model with Triathlon Austrailia <br> <span>Readmore &rightarrow;</span></p>
+                    <h1>Stay up to date</h1>
+                    <form action="">
+                        <input type="email" placeholder="Your email address">
+                    </form>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section class="footer">
-        <div class="footCenter">
-            <h1>Pellentesquen suscipt fringilla libero eu.</h1>
-            <button>Get a Demo &rightarrow;</button>
-        </div>
-
-        <div class="footDiv">
-            <div class="footerIcon">
-                <div class="logoDiv">
-                    <img src="./assets/nexcent_logo.png" alt="" width="43" height="43">
-                    <p class="nexcent">NEXCENT</p>
-                </div>
-
-                <p>Copyright &copy; 2020 Nexcent ltd. <br> All rights reserved</p>
-
-                <img src="./assets/Instagram.svg" alt="">
-                <img src="./assets/linkedin.svg" alt="">
-                <img src="./assets/twitter.svg" alt="">
-                <img src="./assets/youtube.svg" alt="">
-            </div>
-            <div>
-                <h1>Company</h1>
-                <nav>About</nav>
-                <nav>Blog</nav>
-                <nav>Contact us</nav>
-                <nav>Pricing</nav>
-                <nav>Testimonials</nav>
-            </div>
-            <div>
-                <h1>Support</h1>
-                <nav>Help Center</nav>
-                <nav>Terms of Service</nav>
-                <nav>Legal</nav>
-                <nav>Privacy Policy</nav>
-                <nav>Status</nav>
-            </div>
-            <div>
-                <h1>Stay up to date</h1>
-                <form action="">
-                    <input type="email" placeholder="Your email address">
-                </form>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
+   
 </body>
 </html>
