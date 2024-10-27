@@ -406,6 +406,9 @@ span{
         flex-wrap: wrap;
         align-items: center;
     }
+    .genDiv img{
+        width: 90%;
+    }
 
     .text button{
         padding: 5px 10px;
