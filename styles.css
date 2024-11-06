@@ -368,6 +368,19 @@ span{
 
     /* target the home section */
 
+    .container{
+        margin-block: 5em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container .nav-link:hover{
+        
+    }
+
+
     .home{
         padding: 10px 25px;
         min-height:calc(100vh - 70px);
